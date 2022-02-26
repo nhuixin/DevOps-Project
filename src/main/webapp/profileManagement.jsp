@@ -61,5 +61,3 @@ buttons which invokes the edit/delete functions -->
 
 </body>
 </html>
-
-profile maangemnt
