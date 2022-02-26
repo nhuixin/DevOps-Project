@@ -1,5 +1,9 @@
 package com.sddevops.DevOpsProject;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 //import necessary Selenium WebDriver classes
@@ -23,7 +27,7 @@ public class NewTest_HX {
 		webDriver.navigate().to("http://localhost:8091/DevOpsProject/ProfileServlet/dashboard");
 
 		// Assert the title to check that we are indeed in the correct website
-		Assert.assertEquals(webDriver.getTitle(), "Profile Management");
+		AssertJUnit.assertEquals(webDriver.getTitle(), "Profile Management");
 
 		System.out.println("title: " + webDriver.getTitle());
 
@@ -32,7 +36,7 @@ public class NewTest_HX {
 
 		// Assert the new title to check that the title contain Wikipedia and the button
 		// had successfully bring us to the new page
-		Assert.assertTrue(webDriver.getTitle().contains("Add Profile"));
+		AssertJUnit.assertTrue(webDriver.getTitle().contains("Add Profile"));
 		System.out.println("new title: " + webDriver.getTitle());
 	}
 
@@ -41,7 +45,7 @@ public class NewTest_HX {
 	public void AddProfile() {
 		webDriver.navigate().to("http://localhost:8091/DevOpsProject/addprofile.jsp");
 
-		Assert.assertEquals(webDriver.getTitle(), "Add Profile");
+		AssertJUnit.assertEquals(webDriver.getTitle(), "Add Profile");
 
 		System.out.println("title: " + webDriver.getTitle());
 
@@ -56,7 +60,7 @@ public class NewTest_HX {
 		webDriver.findElement(By.className("addprofilebtn")).click();		
 		webDriver.findElement(By.className("nextpagebtn")).click();
 
-		Assert.assertTrue(webDriver.getTitle().contains("Profile Management"));
+		AssertJUnit.assertTrue(webDriver.getTitle().contains("Profile Management"));
 		System.out.println("new title: " + webDriver.getTitle());
 
 	}
@@ -65,7 +69,7 @@ public class NewTest_HX {
 	public void editProfile() {
 		webDriver.navigate().to("http://localhost:8091/DevOpsProject/ProfileServlet/dashboard");
 
-		Assert.assertEquals(webDriver.getTitle(), "Profile Management");
+		AssertJUnit.assertEquals(webDriver.getTitle(), "Profile Management");
 
 		System.out.println("title: " + webDriver.getTitle());
 
@@ -81,7 +85,7 @@ public class NewTest_HX {
 
 		webDriver.findElement(By.className("editbutton")).click();
 
-		Assert.assertTrue(webDriver.getTitle().contains("Profile Management"));
+		AssertJUnit.assertTrue(webDriver.getTitle().contains("Profile Management"));
 		System.out.println("new title: " + webDriver.getTitle());
 
 	}
@@ -90,7 +94,7 @@ public class NewTest_HX {
 	public void deleteProfile() {
 		webDriver.navigate().to("http://localhost:8091/DevOpsProject/ProfileServlet/dashboard");
 
-		Assert.assertEquals(webDriver.getTitle(), "Profile Management");
+		AssertJUnit.assertEquals(webDriver.getTitle(), "Profile Management");
 
 		webDriver.findElement(By.xpath("/html/body/div")).click();
 
