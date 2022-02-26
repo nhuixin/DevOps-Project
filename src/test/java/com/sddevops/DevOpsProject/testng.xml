@@ -5,5 +5,5 @@
     <classes>
       <class name="com.sddevops.DevOpsProject.NewTest_HX"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test --> 
 </suite> <!-- Suite --> 
