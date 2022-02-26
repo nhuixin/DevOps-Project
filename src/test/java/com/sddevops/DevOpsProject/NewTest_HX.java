@@ -12,7 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class NewTest_HX {
-	// declare Selenium WebDriver
+	// declare Selenium WebDriver 
 	private WebDriver webDriver;
 
 	@Test
