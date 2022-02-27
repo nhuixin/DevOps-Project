@@ -22,7 +22,7 @@ public class NewTest_HX {
 	@Test
  
 	// shows all details of the users on dashboard 
-	public void checkProfile() {
+	public void checkProfile() { 
 		// Load website as a new page
 		webDriver.navigate().to("http://localhost:8091/DevOpsProject/ProfileServlet/dashboard");
 
