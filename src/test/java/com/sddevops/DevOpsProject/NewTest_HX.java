@@ -20,7 +20,7 @@ public class NewTest_HX {
 	private WebDriver webDriver;
 
 	@Test
- 
+
 	// shows all details of the users on dashboard 
 	public void checkProfile() {
 		// Load website as a new page
