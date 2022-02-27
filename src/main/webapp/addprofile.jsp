@@ -16,6 +16,6 @@
 		</select> <input type="submit" class="addprofilebtn" value="Create Profile" />
 	</form> 
 </body>  
-</html> 
+</html>
 
  
