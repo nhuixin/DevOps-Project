@@ -8,14 +8,14 @@
 </head>
 <body>
 	<form action="ProfileSuccessServlet" method="post">
-		First Name: <input type="text" name="firstname"> Last Name: <input
-			type="text" name="lastname"> Gender: <select name="gender">
+		First Name: <input type="text" name="firstname"> 
+		Last Name: <input type="text" name="lastname"> 
+		Gender: <select name="gender">
 			<option>Male</option>
 			<option>Female</option>
 			<option>Others</option>
-		</select> <input type="submit" class="addprofilebtn" value="Create Profile" />
+		</select> <input type="submit"  class="addprofilebtn" value="Create Profile" />
 	</form> 
-</body> 
+</body>
 </html>
 
- 
