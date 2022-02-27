@@ -14,8 +14,10 @@
 			<option>Female</option>
 			<option>Others</option>
 		</select> <input type="submit" class="addprofilebtn" value="Create Profile" />
-	</form> 
-</body> 
-</html>
+
+	</form>
+</body>   
+</html> 
+
 
  
