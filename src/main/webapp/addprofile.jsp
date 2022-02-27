@@ -15,7 +15,7 @@
 			<option>Others</option>
 		</select> <input type="submit" class="addprofilebtn" value="Create Profile" />
 	</form> 
-</body>  
-</html> 
+</body> 
+</html>
 
  
