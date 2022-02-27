@@ -100,7 +100,7 @@ public class NewTest_HX {
 
 	}
 
-	@BeforeTest 
+	@BeforeTest
 	public void beforeTestProfile() {
 		// Setting system properties of ChromeDriver
 		// to amend directory path base on your local file path
